@@ -1,0 +1,14 @@
+{
+  "name": "vault-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dropbox 上の Obsidian Vault の Markdown を読み書き（一部置換・追記・上書き）する MCP サーバー",
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "4.4.3"
+  }
+}
